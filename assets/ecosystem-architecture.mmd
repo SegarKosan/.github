@@ -1,0 +1,31 @@
+flowchart TB
+ subgraph eco["SegarKosan Ecosystem"]
+        backend
+        frontend
+        Database[("MongoDB Database 
+        (Atlas)")]
+        Broker["MQTT Broker"]
+        ESP32-C3["SegarKosan IOT"]
+
+ end
+ subgraph backend["SegarKosan BackEnd Server"]
+        API["REST API"]
+        WS["WebSocket"]
+        BackendLogic["Processing Logic
+        (Node.js)"]
+  end
+ subgraph frontend["SegarKosan Frontend Server"]
+        WebDash["Web Dashboard 
+        (Next.js)"]
+        Gauges["Real-time Gauges"]
+        Graphs["Historical Graphs"]
+        Alerts["Alert Notifications"]
+  end
+    
+    User(("Public User")) -- Access via https://segarkosan.vercel.app--> WebDash
+    ESP32-C3 -- Publish Data --> Broker
+    Broker -- Subscribe --> BackendLogic
+    BackendLogic --> Database
+    BackendLogic -- Push --> WS
+    WS -- "Real-time Update" --> WebDash
+    WebDash --- Gauges & Graphs & Alerts
