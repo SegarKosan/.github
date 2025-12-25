@@ -18,6 +18,9 @@
     <a href="https://segarkosan.vercel.app">
       <img alt="PWA Badge" src="../assets/pwa-badge.png" height="80px">
     </a>
+    <a href="https://github.com/SegarKosan/SegarKosan/releases">
+      <img alt="PWA Badge" src="../assets/github-badge.png" height="80px">
+    </a>
   </p>
 </div>
 
