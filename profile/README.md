@@ -28,9 +28,15 @@
   </p>
   
   <p align="center">
-    <img src="https://img.shields.io/badge/SegarKosan-Repository-218685?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SegarKosan/SegarKosan" alt="SegarKosan Repo">
-    <img src="https://img.shields.io/badge/FrontEnd-Repository-7cc48a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SegarKosan/SegarKosan-FrontEnd" alt="SegarKosan Repo">
-    <img src="https://img.shields.io/badge/BackEnd-Repository-0000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SegarKosan/SegarKosan-BackEnd" alt="SegarKosan Repo">
+    <a href="https://github.com/SegarKosan/SegarKosan">
+      <img src="https://img.shields.io/badge/SegarKosan-Repository-218685?style=for-the-badge&logo=github&logoColor=white" alt="SegarKosan Repo">
+    </a>
+    <a href="https://github.com/SegarKosan/SegarKosan-FrontEnd">
+      <img src="https://img.shields.io/badge/FrontEnd-Repository-7cc48a?style=for-the-badge&logo=github&logoColor=white" alt="FrontEnd Repo">
+    </a>
+    <a href="https://github.com/SegarKosan/SegarKosan-BackEnd">
+      <img src="https://img.shields.io/badge/BackEnd-Repository-000000?style=for-the-badge&logo=github&logoColor=white" alt="BackEnd Repo">
+    </a>
   </p>
 </div>
 
