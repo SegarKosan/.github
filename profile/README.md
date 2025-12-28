@@ -344,8 +344,8 @@ For licensing inquiries, please contact us.
 ---
 
 <div align="center">
-  <p><strong>Made with ❤️ by Morning Group for healthier student living spaces</strong></p>
+  <p><strong>Made with Passion by Morning Group for healthier student living spaces</strong></p>
   <p>
-    <a href="#-overview">Back to Top ↑</a>
+    <a href="#overview">Back to Top ↑</a>
   </p>
 </div>
